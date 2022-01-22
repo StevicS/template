@@ -1,0 +1,66 @@
+@use 'sass:math';
+
+/* .container-grid {
+  max-width: $grid__bp-lg * 1px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  @include mq(desktop) {
+    padding: 0 22px;
+  }
+
+  @include mq(tablet) {
+    padding: 0 20px;
+  }
+}
+
+.container-grid--fluid {
+  margin: 0;
+  max-width: 100%;
+
+  @include mq(desktop) {
+    padding-left: 20px;
+  }
+}
+
+.container-grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@for $i from 1 through $grid__cols {
+  .col-lg-#{$i} {
+    flex-basis: math.div(100, math.div($grid__cols, $i)) * 1%;
+  }
+  .col-lg-offset-#{$i} {
+    margin-left: math.div(100, math.div($grid__cols, $i)) * 1%;
+  }
+}
+
+@media screen and (max-width: $grid__bp-md * 1px) {
+  @for $i from 1 through $grid__cols {
+    .col-md-#{$i} {
+      flex-basis: math.div(100, math.div($grid__cols, $i)) * 1%;
+    }
+    .col-md-offset-#{$i} {
+      margin-left: math.div(100, math.div($grid__cols, $i)) * 1%;
+    }
+  }
+}
+
+@media screen and (max-width: $grid__bp-sm * 1px) {
+  @for $i from 1 through $grid__cols {
+    .col-sm-#{$i} {
+      flex-basis: math.div(100, math.div($grid__cols, $i)) * 1%;
+    }
+    .col-sm-offset-#{$i} {
+      margin-left: math.div(100, math.div($grid__cols, $i)) * 1%;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+ */
